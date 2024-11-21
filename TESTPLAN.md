@@ -25,6 +25,8 @@ Zakres testów obejmuje sprawdzanie kluczowych funkcjonalności aplikacji, w tym
 
 - Szeroka możliwość personalizowania ankiet - opcja nadpisania przewodniego stylu i pliku CSS. 
 
+Oraz weryfikację bezpieczeństwa platformy, zgodności z standardem **OWASP ASVS** i poszanowania prywatności użytkowników.
+
 Typy testów, które nie będą uwzględniane:
 
 - Jednostkowe – skupiamy się na wyższych poziomach testowania.
