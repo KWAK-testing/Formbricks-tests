@@ -29,7 +29,7 @@ Typy testów, które nie będą uwzględniane:
 
 - Jednostkowe – skupiamy się na wyższych poziomach testowania.
 
-- Wydajnościowe – z uwagi złożoność pomiarów związane z self-hostingiem, oraz niski priorytet wydajności w wymaganiach
+- Wydajnościowe – z uwagi na złożonośći pomiarów związane z self-hostingiem, oraz niski priorytet wydajności w wymaganiach
 
 - Regresji – brak potrzeby w obecnym kontekście rozwoju aplikacji.
 
