@@ -1,6 +1,8 @@
 # FORMBRICKS TEST PLAN
 > Dokument zawiera plan testów (ISO-29119) otwartoźródłówej aplikacji [Formbricks](https://formbricks.com/)
 
+> DOC ID: TP-Formbricks-v0.1
+
 ## 1. Wprowadzenie
  ### Cel testów 
 
@@ -19,7 +21,7 @@ Zakres testów obejmuje sprawdzanie kluczowych funkcjonalności aplikacji, w tym
 
 - Załączanie multimediów do pytań i odbieranie plików o zadanych rozszerzeniach od ankietowanych.
 
-- Rozbudowana działanie ankiet - automatyczne uzupełnianie danych, tworzenie złożonej logiki warunkowej, automatyczne wyświetlanie kwestionariuszy w odpowiedzi na zdarzenie w aplikacji.
+- Rozbudowane działanie ankiet - automatyczne uzupełnianie danych, tworzenie złożonej logiki warunkowej, automatyczne wyświetlanie kwestionariuszy w odpowiedzi na zdarzenie w aplikacji.
 
 - Szeroka możliwość personalizowania ankiet - opcja nadpisania przewodniego stylu i pliku CSS. 
 
@@ -27,7 +29,7 @@ Typy testów, które nie będą uwzględniane:
 
 - Jednostkowe – skupiamy się na wyższych poziomach testowania.
 
-- Wydajnościowe – z uwagi na ograniczenia związane z self-hostingiem
+- Wydajnościowe – z uwagi złożoność pomiarów związane z self-hostingiem, oraz niski priorytet wydajności w wymaganiach
 
 - Regresji – brak potrzeby w obecnym kontekście rozwoju aplikacji.
 
@@ -36,18 +38,18 @@ Typy testów, które nie będą uwzględniane:
 ## 2. Cele i kryteria testów
 
 ### Kryteria wejścia
-- Środowisko testowe zostało poprawnie skonfigurowane:
+- Środowisko i narzędzia testowe zostały poprawnie skonfigurowane:
   - obraz Docker zawierający aplikację Formbricks w wersji self-hosted.  
   - Framework Playwright do automatyzacji testów.  
   - Python do tworzenia dodatkowych skryptów wspierających testy.  
   - Przeglądarki (Chrome, Firefox, Edge) do testów kompatybilności. 
 - Wszystkie wymagane funkcjonalności są gotowe do testowania.
+- Przypadki testowe zaprojektowane w sposób pozwalający na ich wykonanie
 - Zespół testerski ma przypisane konkretne zadania.
 
 ### Kryteria wyjścia
 - Przeprowadzono pełną weryfikację kluczowych funkcji zgodnie z dokumentacją. 
-- Wszystkie testy automatyczne zostały uruchomione i mają status zaakceptowany lub zgłoszono związane z nimi błędy do twórców.  
-- Przeprowadzono pełną weryfikację kluczowych funkcji zgodnie z dokumentacją.  
+- Wszystkie testy automatyczne zostały uruchomione przynajmniej raz i mają status zaakceptowany lub zgłoszono związane z nimi błędy do twórców.  
 - Został przygotowany końcowy raport testów. 
 
 ### Kryteria akceptacji
@@ -59,7 +61,16 @@ Typy testów, które nie będą uwzględniane:
   Odpowiedzi ankiet są automatycznie przesyłane do zintegrowanych systemów lub aktywują odpowiednie triggery (np. Make, Zapier).
 
 - **Bezpieczeństwo i zarządzanie dostępem**  
-  System zapewnia przesyłanie i przechowywanie tylko danych niezbędnych do realizacji funkcji, jednocześnie uniemożliwiając dostęp nieautoryzowanym użytkownikom oraz blokując nieautoryzowane działania.
+  - System zapewnia przesyłanie i przechowywanie tylko danych niezbędnych do realizacji funkcji, jednocześnie uniemożliwiając dostęp nieautoryzowanym użytkownikom oraz blokując nieautoryzowane działania.
+  - System spełnia wymagania zdefiniowane w [OWASP Application Security Verifictation Standard](https://owasp.org/www-project-application-security-verification-standard/) a w szególności wymagania zdefiniowane w punktach:
+      - V2 Authentication
+      - V3 Session Management
+      - V4 Access Control
+      - V5 Validation, Sanitization and Encoding
+      - V8 Data Protection
+      - V9 Communication
+      - V12 Files and Resources
+      - V13 API and Web Service
 
 - **Obsługa błędów integracji**  
   W przypadku problemów z integracją system generuje komunikaty o błędach i zapobiega przesyłaniu niekompletnych danych.
@@ -174,11 +185,20 @@ Jak wynika z poprzedniego punktu
 ### Kluczowe wskaźniki jakości
 - pokrycie testów
 - ilość błędów krytycznych (wg uznania zespołu, odpowiednio oznaczone na GitHubie)
+- ilość przypadków testowych weryfikująca wymagania OWASP ASVS
+- ilość wykrytych błędów bezpieczeństwa
 
 ### Sposób raportowania wyników testów
 - rejestrowanie defektu na tablicy projektu na GitHubie KWAK i przypisanie go do siebie
-- zgłoszenie buga do Issues na GitHubie Formbricks
+- W przypadku:
+  - Błędu bezpieczeństwa: zgłoszenie błędu przez email, lub inną niepubliczną metodą podaną w README repozytorium formbricksa
+  - Innego błędu: zgłoszenie buga do Issues na GitHubie Formbricks
 - podtrzymywanie kontaktu z twórcami
 - w przypadku potwierdzenia błędu i odpowiednie oznaczenie go na GitHubie KWAK
 - w przypadku naprawienia błędu retesty i odpowiednie oznaczenie na GitHubie KWAK
 
+
+## 7. Przydatne linki
+- **Repozytorium testów**: [https://github.com/KWAK-testing/Formbricks-tests](https://github.com/KWAK-testing/Formbricks-testse)
+- **Repozytorium formbricksa**: [https://github.com/formbricks/formbricks](https://github.com/formbricks/formbricks)
+- **OWASP ASVS**: [https://owasp.org/www-project-application-security-verification-standard/](https://owasp.org/www-project-application-security-verification-standard/)
