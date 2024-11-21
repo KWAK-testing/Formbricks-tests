@@ -42,5 +42,12 @@
 ## 6. Metryki i raportowanie
 
 ### Kluczowe wskaźniki jakości
+- pokrycie testów
+- ilość błędów krytycznych (wg uznania zespołu, odpowiednio oznaczone na GitHubie)
 
 ### Sposób raportowania wyników testów
+- rejestrowanie defektu na tablicy projektu na GitHubie KWAK i przypisanie go do siebie
+- zgłoszenie buga do Issues na GitHubie Formbricks
+- podtrzymywanie kontaktu z twórcami
+- w przypadku potwierdzenia błędu i odpowiednie oznaczenie go na GitHubie KWAK
+- w przypadku naprawienia błędu retesty i odpowiednie oznaczenie na GitHubie KWAK 
