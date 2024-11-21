@@ -28,9 +28,31 @@
 - Został przygotowany końcowy raport testów. 
 
 ### Kryteria akceptacji
-- Każda funkcjonalność została przetestowana i działa zgodnie z wymaganiami biznesowymi oraz technicznymi.  
-- Testy pokrywają wszystkie krytyczne scenariusze dla danej funkcji.  
-- Funkcjonalność jest zgodna z dokumentacją i działa w wymaganym zakresie.
+
+- **Integracje z systemami zewnętrznymi**  
+  System poprawnie przesyła dane do zewnętrznych serwisów (np. Airtable, Google Sheets, Slack, Notion) zgodnie z dokumentacją i obsługuje wymagane funkcje integracyjne. Użytkownik może w dowolnym momencie wyłączyć automatyczne przesyłanie danych do systemów zewnętrznych.
+
+- **Przetwarzanie odpowiedzi z ankiet**  
+  Odpowiedzi ankiet są automatycznie przesyłane do zintegrowanych systemów lub aktywują odpowiednie triggery (np. Make, Zapier).
+
+- **Bezpieczeństwo i zarządzanie dostępem**  
+  System zapewnia przesyłanie i przechowywanie tylko danych niezbędnych do realizacji funkcji, jednocześnie uniemożliwiając dostęp nieautoryzowanym użytkownikom oraz blokując nieautoryzowane działania.
+
+- **Obsługa błędów integracji**  
+  W przypadku problemów z integracją system generuje komunikaty o błędach i zapobiega przesyłaniu niekompletnych danych.
+
+- **Webhooks**  
+  System umożliwia definiowanie webhooków, które są aktywowane przy tworzeniu, aktualizacji lub zakończeniu odpowiedzi w ankiecie.
+
+- **Personalizacja ankiet**  
+  Ankiety mogą być dostosowywane wizualnie (np. poprzez CSS) i wstępnie uzupełniane danymi dostarczonymi przez parametry URL.
+
+- **Typy pytań**  
+  Wszystkie typy pytań (np. tekstowe, załączniki, wybór obrazka, rezerwacja spotkań) działają zgodnie z założeniami.
+
+- **Logika i warunki ankiet**  
+  System umożliwia tworzenie logiki opartej na warunkach i akcjach, zapewniając spersonalizowane wyświetlanie pytań.
+
 
 ### Kryteria zawieszenia
 - Testy są wstrzymywane w przypadku awarii środowiska testowego (np. błąd konfiguracji Docker, niedostępność aplikacji).  
