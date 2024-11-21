@@ -12,10 +12,31 @@
 
 ## 2. Cele i kryteria testów
 
-### Kryteria wejścia wyjścia
+### Kryteria wejścia
+- Środowisko testowe zostało poprawnie skonfigurowane:
+  - obraz Docker zawierający aplikację Formbricks w wersji self-hosted.  
+  - Framework Playwright do automatyzacji testów.  
+  - Python do tworzenia dodatkowych skryptów wspierających testy.  
+  - Przeglądarki (Chrome, Firefox, Edge) do testów kompatybilności. 
+- Wszystkie wymagane funkcjonalności są gotowe do testowania.
+- Zespół testerski ma przypisane konkretne zadania.
+
+### Kryteria wyjścia
+- Przeprowadzono pełną weryfikację kluczowych funkcji zgodnie z dokumentacją. 
+- Wszystkie testy automatyczne zostały uruchomione i mają status zaakceptowany lub zgłoszono związane z nimi błędy do twórców.  
+- Przeprowadzono pełną weryfikację kluczowych funkcji zgodnie z dokumentacją.  
+- Został przygotowany końcowy raport testów. 
 
 ### Kryteria akceptacji
+- Każda funkcjonalność została przetestowana i działa zgodnie z wymaganiami biznesowymi oraz technicznymi.  
+- Testy pokrywają wszystkie krytyczne scenariusze dla danej funkcji.  
+- Funkcjonalność jest zgodna z dokumentacją i działa w wymaganym zakresie.
 
+### Kryteria zawieszenia
+- Testy są wstrzymywane w przypadku awarii środowiska testowego (np. błąd konfiguracji Docker, niedostępność aplikacji).  
+- Wystąpienie błędów krytycznych uniemożliwiających dalsze testowanie danej funkcjonalności.  
+- Problemy organizacyjne, takie jak brak dostępu do wymaganych zasobów lub komunikacji z zespołem developerskim.  
+- Testy mogą zostać wznowione po usunięciu przeszkód i ponownym przeglądzie środowiska testowego.  
 
 ## 3. Strategia testowania
 
