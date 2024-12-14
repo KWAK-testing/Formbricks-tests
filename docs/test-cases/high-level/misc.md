@@ -11,13 +11,13 @@ Sprawdzić, czy aplikacja obsługuje najpopularniejsze formaty obrazów (np. JPG
 
 
 ## TC-MISC-02
-Załączanie różnych formatów wideo
+Załączanie wideo za pomocą URL
 
 ### Wymagania:  
 - REQ-MISC-AddMultimedia  
 
 ### Cel 
-Sprawdzenie opcji dodawania filmów do pytania za pomocą URL (YouTube, Vimeo, Loom).
+Sprawdzić opcję dodawania filmów do pytania za pomocą URL (YouTube, Vimeo, Loom).
 
 
 ## TC-MISC-03
