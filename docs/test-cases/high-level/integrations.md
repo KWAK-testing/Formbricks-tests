@@ -16,7 +16,8 @@ Integracja z Google Sheets
 - OWASP ASVS Sekcja 13 (API and Web Service)
 
 ### Cel
-Zweryfikować, czy odpowiedzi ankiet są poprawnie przesyłane do wybranych plików Google Sheets oraz czy system obsługuje błędy integracji, generując odpowiednie komunikaty.
+Zweryfikować, czy odpowiedzi ankiet są poprawnie przesyłane do wybranych plików Google Sheets oraz czy system obsługuje błędy integracji, generując odpowiednie komunikaty. Sprawdzić, czy dane są przesyłane zgodnie z wymaganiami OWASP ASVS oraz czy użytkownik może wyłączyć automatyczne przesyłanie danych w dowolnym momencie.
+
 
 ## TC-INT-03
 Integracja z Make
@@ -25,7 +26,7 @@ Integracja z Make
 - OWASP ASVS Sekcja 13 (API and Web Service)
 
 ### Cel
-Zweryfikować, czy integracja z Make umożliwia automatyzację przepływów pracy zgodnie z dokumentacją oraz spełnia wymogi bezpieczeństwa OWASP ASVS.
+Zweryfikować, czy integracja z Make umożliwia automatyzację przepływów pracy zgodnie z dokumentacją oraz spełnia wymogi bezpieczeństwa OWASP ASVS. Sprawdzić czy integracja może zostać w dowolnej chwili przerwana przez użytkownika
 
 
 ## TC-INT-04
@@ -35,7 +36,7 @@ Integracja z n8n
 - OWASP ASVS Sekcja 13 (API and Web Service)
 
 ### Cel
-Zweryfikować, czy system poprawnie konfiguruje automatyzację przepływów pracy na platformie n8n i czy dane są przesyłane zgodnie z zasadami bezpieczeństwa API.
+Zweryfikować, czy system poprawnie konfiguruje automatyzację przepływów pracy na platformie n8n i czy dane są przesyłane zgodnie z zasadami bezpieczeństwa API. Sprawdzić czy integracja może zostać w dowolnej chwili przerwana przez użytkownika
 
 
 ## TC-INT-05
@@ -45,7 +46,7 @@ Integracja z Notion
 - OWASP ASVS Sekcja 13 (API and Web Service)
 
 ### Cel
-Zweryfikować, czy odpowiedzi ankiet są przesyłane do wybranej bazy danych na Notion, spełniając wymagania OWASP ASVS, oraz czy system obsługuje błędy integracji.
+Zweryfikować, czy odpowiedzi ankiet są przesyłane do wybranej bazy danych na Notion, spełniając wymagania OWASP ASVS, oraz czy system obsługuje błędy integracji. Sprawdzić czy integracja może zostać w dowolnej chwili przerwana przez użytkownika
 
 
 
@@ -56,7 +57,7 @@ Integracja z Slack
 - OWASP ASVS Sekcja 13 (API and Web Service)
 
 ### Cel
-Zweryfikować, czy odpowiedzi ankiet mogą być przesyłane na wybrany kanał Slack zgodnie z dokumentacją oraz czy system poprawnie obsługuje błędy integracji.
+Zweryfikować, czy odpowiedzi ankiet mogą być przesyłane na wybrany kanał Slack zgodnie z dokumentacją oraz czy system poprawnie obsługuje błędy integracji. Sprawdzić czy integracja może zostać w dowolnej chwili przerwana przez użytkownika
 
 
 
@@ -67,7 +68,7 @@ Integracja z WordPress
 - OWASP ASVS Sekcja 13 (API and Web Service)
 
 ### Cel
-Zweryfikować, czy system umożliwia automatyczne przesyłanie ankiet na stronę WordPress oraz czy proces ten spełnia wymogi bezpieczeństwa API i zgodności z OWASP ASVS.
+Zweryfikować, czy system umożliwia automatyczne przesyłanie ankiet na stronę WordPress oraz czy proces ten spełnia wymogi bezpieczeństwa API i zgodności z OWASP ASVS. Sprawdzić czy integracja może zostać w dowolnej chwili przerwana przez użytkownika
 
 
 
@@ -78,7 +79,7 @@ Integracja z Zapier
 - OWASP ASVS Sekcja 13 (API and Web Service)
 
 ### Cel
-Zweryfikować, czy system poprawnie przesyła dane do Zapier i aktywuje odpowiednie przepływy zgodnie z dokumentacją oraz wymogami OWASP ASVS.
+Zweryfikować, czy system poprawnie przesyła dane do Zapier i aktywuje odpowiednie przepływy zgodnie z dokumentacją oraz wymogami OWASP ASVS. Sprawdzić czy integracja może zostać w dowolnej chwili przerwana przez użytkownika
 
 
 ## TC-INT-09
@@ -91,7 +92,6 @@ Obsługa błędów integracji
 Zweryfikować, czy system generuje odpowiednie komunikaty o błędach w przypadku nieudanej integracji oraz uniemożliwia przesyłanie niekompletnych danych.
 
 
-
 ## TC-INT-10
 Bezpieczeństwo webhooków
 ### Wymagania
@@ -100,3 +100,19 @@ Bezpieczeństwo webhooków
 
 ### Cel
 Zweryfikować, czy system uniemożliwia wykorzystanie podatności SSRF i CSRF w integracjach, szczególnie w przypadku webhooków, zgodnie z sekcją 12.6 OWASP ASVS.
+
+## TC-INT-10
+Bezpieczeństwo webhooków
+### Wymagania
+- Wszystkie REQ-INT-Webhook
+- OWASP ASVS Sekcja 12.6 (SSRF Protection)
+
+### Cel
+Zweryfikować, czy system uniemożliwia wykorzystanie podatności SSRF i CSRF w integracjach, szczególnie w przypadku webhooków, zgodnie z sekcją 12.6 OWASP ASVS.
+
+## TC-INT-11
+Dodawanie webhooków
+### Wymagania
+- Wszystkie REQ-INT-Webhooks
+### Cel
+Zweryfikować, czy system umożliwia skonfigurowanie webhooków oraz ich późniejsze wyłączenie
