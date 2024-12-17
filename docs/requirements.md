@@ -18,18 +18,6 @@ wysyłanie odpowiedzi
 ankiet do wybranych
 plików Google Sheet.
 
-
-### REQ-INT-Make
-Program powinien
-umożliwić
-automatyczne
-uruchamianie triggerów
-w systemie Make w
-momencie
-stworzenia/aktualizacji/
-zakończenia odpowiedzi
-w ankiecie
-
 ### REQ-INT-n8n
 Program powinien
 umożliwić

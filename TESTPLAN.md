@@ -17,7 +17,7 @@ Formbricks to wszechstronna, otwartoźródłowa platforma oferująca narzędzia 
 
 Zakres testów obejmuje sprawdzanie kluczowych funkcjonalności aplikacji, w tym:
 
-- Integracja z zewnętrznymi platformami, takimi jak Airtable, Google Sheets, Notion, Slack, Zapier, Wordpress, Make i n8n.
+- Integracja z zewnętrznymi platformami, takimi jak Airtable, Google Sheets, Notion, Slack, Zapier, Wordpress i n8n.
 
 - Załączanie multimediów do pytań i odbieranie plików o zadanych rozszerzeniach od ankietowanych.
 
@@ -58,7 +58,7 @@ Typy i poziomy testów, które nie będą uwzględniane:
   System poprawnie przesyła dane do zewnętrznych serwisów (np. Airtable, Google Sheets, Slack, Notion) zgodnie z dokumentacją i obsługuje wymagane funkcje integracyjne. Użytkownik może w dowolnym momencie wyłączyć automatyczne przesyłanie danych do systemów zewnętrznych.
 
 - **Przetwarzanie odpowiedzi z ankiet**  
-  Odpowiedzi ankiet są automatycznie przesyłane do zintegrowanych systemów lub aktywują odpowiednie triggery (np. Make, Zapier).
+  Odpowiedzi ankiet są automatycznie przesyłane do zintegrowanych systemów lub aktywują odpowiednie triggery (np. Zapier, n8n).
 
 - **Bezpieczeństwo i zarządzanie dostępem**  
   - System zapewnia przesyłanie i przechowywanie tylko danych niezbędnych do realizacji funkcji, jednocześnie uniemożliwiając dostęp nieautoryzowanym użytkownikom oraz blokując nieautoryzowane działania.

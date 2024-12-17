@@ -19,16 +19,6 @@ Integracja z Google Sheets
 Zweryfikować, czy odpowiedzi ankiet są poprawnie przesyłane do wybranych plików Google Sheets oraz czy system obsługuje błędy integracji, generując odpowiednie komunikaty. Sprawdzić, czy dane są przesyłane zgodnie z wymaganiami OWASP ASVS oraz czy użytkownik może wyłączyć automatyczne przesyłanie danych w dowolnym momencie.
 
 
-## TC-INT-03
-Integracja z Make
-### Wymagania
-- REQ-INT-Make
-- OWASP ASVS Sekcja 13 (API and Web Service)
-
-### Cel
-Zweryfikować, czy integracja z Make umożliwia automatyzację przepływów pracy zgodnie z dokumentacją oraz spełnia wymogi bezpieczeństwa OWASP ASVS. Sprawdzić czy integracja może zostać w dowolnej chwili przerwana przez użytkownika
-
-
 ## TC-INT-04
 Integracja z n8n
 ### Wymagania
