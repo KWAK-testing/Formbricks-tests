@@ -41,7 +41,7 @@ Zweryfikować, czy treści i dane odpowiedzi ankietowej są odpowiednio obsługi
 
 
 ## TC-INFOSEC-04
-Pipeline REST API security
+REST API security
 
 ### Wymagania
 - REQ-INT-*
@@ -49,7 +49,7 @@ Pipeline REST API security
 - OWASP ASVS Sekcja 13 (Api and Web Service)
 
 ### Cel
-Zweryfikować zgodność implementacji endpointów dotyczących pipelinu i odpowiedzi ankietowej z sekcją 13 standardu OWASP ASVS
+Zweryfikować zgodność implementacji endpointów dotyczących pipelinu, ankietowanych i odpowiedzi ankietowej z sekcją 13 standardu OWASP ASVS
 
 ## TC-INFOSEC-05
 SSRF & CSRF
