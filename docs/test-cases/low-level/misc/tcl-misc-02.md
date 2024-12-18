@@ -22,8 +22,7 @@ Sprawdzenie poprawności załączania filmów do pytania za pomocą URL (YouTube
 
   2. Dodanie URL do filmu
        1. Wybierz link z `Input`.
-       2. Wklej link w odpowiednie pole:
-       ![alt text](image-1.png)
+       2. Wklej link w odpowiednie pole:<br>![alt text](/docs/test-cases/low-level/misc/visuals/image-1.png)
        3. Kliknij przycisk "Add".
        4. Sprawdź czy `Expected`.
 
