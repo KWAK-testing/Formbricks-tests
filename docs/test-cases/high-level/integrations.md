@@ -81,16 +81,6 @@ Obsługa błędów integracji
 ### Cel
 Zweryfikować, czy system generuje odpowiednie komunikaty o błędach w przypadku nieudanej integracji oraz uniemożliwia przesyłanie niekompletnych danych.
 
-
-## TC-INT-10
-Bezpieczeństwo webhooków
-### Wymagania
-- Wszystkie REQ-INT-*
-- OWASP ASVS Sekcja 12.6 (SSRF Protection)
-
-### Cel
-Zweryfikować, czy system uniemożliwia wykorzystanie podatności SSRF i CSRF w integracjach, szczególnie w przypadku webhooków, zgodnie z sekcją 12.6 OWASP ASVS.
-
 ## TC-INT-10
 Bezpieczeństwo webhooków
 ### Wymagania
@@ -103,6 +93,6 @@ Zweryfikować, czy system uniemożliwia wykorzystanie podatności SSRF i CSRF w 
 ## TC-INT-11
 Dodawanie webhooków
 ### Wymagania
-- Wszystkie REQ-INT-Webhooks
+- Wszystkie REQ-INT-Webhook
 ### Cel
 Zweryfikować, czy system umożliwia skonfigurowanie webhooków oraz ich późniejsze wyłączenie
