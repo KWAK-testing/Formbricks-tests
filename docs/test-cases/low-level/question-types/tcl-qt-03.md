@@ -1,9 +1,9 @@
 # TCL-QT-03
 
 > ### Odniesienia
->- [REQ-QT-FreeText](https://github.com/KWAK-testing/Formbricks-tests/blob/misc-low-level-test-cases-qt/docs/requirements.md#req-qt-freetext)
->- [TC-QT-07](https://github.com/KWAK-testing/Formbricks-tests/blob/misc-low-level-test-cases-qt/docs/test-cases/high-level/question-types.md#tc-qt-07)
->- [TC-QT-08](https://github.com/KWAK-testing/Formbricks-tests/blob/misc-low-level-test-cases-qt/docs/test-cases/high-level/question-types.md#tc-qt-08)
+>- [REQ-QT-FreeText](../../../requirements.md#req-qt-freetext)
+>- [TC-QT-07](../../high-level/question-types.md#tc-qt-07)
+>- [TC-QT-08](../../high-level/question-types.md#tc-qt-08)
 
 ### Cel
 Zweryfikować poprawność obsługi odpowiedzi tekstowych w pytaniach FreeText, w tym akceptację różnych formatów danych oraz reakcję systemu na odpowiedzi o bardzo małej i dużej ilości znaków.
