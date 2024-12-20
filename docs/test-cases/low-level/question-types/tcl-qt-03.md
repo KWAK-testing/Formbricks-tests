@@ -19,8 +19,8 @@ Zweryfikować poprawność obsługi odpowiedzi tekstowych w pytaniach FreeText, 
 
 | Test case            | Setting                          | Input                                                                 | Expected                                                                                       |
 |----------------------|----------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| TCL-QT-03-01         | Input type = text               | Tekst o długości 1 znaku                                             | Odpowiedź zaakceptowana.                                                                      |
-| TCL-QT-03-02         | Input type = text               | Tekst o bardzo dużej długości (>10,000 znaków)                       | Odpowiedni komunikat błędu (zbyt duża ilość znaków) lub zaakceptowane pytanie. Brak błędu krytycznego. |
+| TCL-QT-03-01         | Input type = text               | Tekst o długości 1 znaku (np 'a')                                             | Odpowiedź zaakceptowana.                                                                      |
+| TCL-QT-03-02         | Input type = text               | Tekst o bardzo dużej długości ([longText.txt](./assets/longText.txt))                       | Odpowiedni komunikat błędu (zbyt duża ilość znaków) lub zaakceptowane pytanie. Brak błędu krytycznego. |
 | TCL-QT-03-03         | Input type = email              | Poprawny email (np. test@example.com)                                | Odpowiedź zaakceptowana.                                                                      |
 | TCL-QT-03-04         | Input type = email              | Niepoprawny email (np. test@com)                                     | Odpowiedni komunikat błędu (niepoprawny format email).                                        |
 | TCL-QT-03-05         | Input type = number             | Poprawny numer (np. 12345)                                           | Odpowiedź zaakceptowana.                                                                      |
