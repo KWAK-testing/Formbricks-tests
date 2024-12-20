@@ -8,7 +8,7 @@ umożliwić
 automatyczne
 wysyłanie odpowiedzi
 ankiet do wybranych
-plików Airtable
+plików Airtable.
 
 ### REQ-INT-Google-Sheets
 Program powinien
@@ -27,7 +27,7 @@ w systemie n8n w
 momencie
 stworzenia/aktualizacji/
 zakończenia odpowiedzi
-w ankiecie
+w ankiecie.
 
 ### REQ-INT-Notion
 Program powinien
@@ -43,7 +43,7 @@ umożliwić
 automatyczne
 wysyłanie odpowiedzi
 ankiet na wybrany kanał
-na platformie Slack
+na platformie Slack.
 
 ### REQ-INT-Wordpress
 Program powinien
@@ -54,7 +54,7 @@ zdeniowanych w
 panelu formbricksa na
 stronie zarządzanej
 przez system wordpress
-przy pomocy pluginu
+przy pomocy pluginu.
 
 ### REQ-INT-Zapier
 Program powinien
@@ -65,7 +65,7 @@ w systemie Zapier w
 momencie
 stworzenia/aktualizacji/
 zakończenia odpowiedzi
-w ankiecie
+w ankiecie.
 
 ### REQ-INT-Webhooks
 System powinien
@@ -77,7 +77,7 @@ aplikacją webową.Webhooki
 uruchamiają się przy okazji
 utworzenia / zaktualizowania /
 zakończenia odpowiedzi w
-ankiecie
+ankiecie.
 
 ### REQ-INT-Remove
 Program powinien
@@ -85,7 +85,7 @@ umożliwić przerwanie
 automatycznego
 przesyłania odpowiedzi
 do dowolnego systemu
-zewnętrznego
+zewnętrznego.
 
 ### REQ-N-INT-Privacy
 System w
@@ -104,11 +104,11 @@ Ankieta powinna
 umożliwić stworzenie pytania
 na które ankietowany
 odpowiada przesyłając
-plik/pliki. Użytkownik deniuje
-maksymalną ilość, rozmiar
+plik/pliki. Użytkownik definiuje
+maksymalną liczbę, rozmiar
 oraz dopuszczalne typy plików.
 Pliki niespełniające kryteriów
-są odrzucane
+są odrzucane.
 
 ### REQ-QT-MeetinScheduler
 Ankieta powinna
@@ -127,7 +127,7 @@ umożliwić stworzenie pytania
 złożonego z kilku zdjęć.
 Ankietowany odpowiada
 wybierając jedno lub wiele
-zdjęć z listy
+zdjęć z listy.
 
 ### REQ-QT-FreeText
 Ankieta powinna
@@ -136,16 +136,16 @@ na które ankietowany
 odpowiada tekstem. Tekst
 może zostać ograniczony do
 jednego z typów: text, email,
-number, phone
+number, phone.
 
 ## Miscellaneous
 
 ### REQ-MISC-AddMultimedia
 Program powinien
 umożliwiać dołączenie
-zdjęć lub lmów do
+zdjęć lub filmów do
 dowolnego pytania
-ankietowego
+ankietowego.
 
 ### REQ-MISC-LogicEditor
 System powinien
@@ -154,7 +154,7 @@ logiki ankietowej z
 wykorzystaniem warunków,
 akcji i zmiennych, aby
 zapewnić spersonalizowane
-doświadczenie użytkownika
+doświadczenie użytkownika.
 
 ### REQ-MISC-RecallData
 Twórca ankiety
@@ -173,4 +173,4 @@ osobom, oraz blokować
 wszelkie próby wykonania
 dowolnej akcji systemowej
 przez nieautoryzowanego
-użytkownika
+użytkownika.
