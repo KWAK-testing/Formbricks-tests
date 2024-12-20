@@ -1,8 +1,8 @@
 # TCL-QT-01
 
 > ### Odniesienia
->- [REQ-QT-FileUpload](https://github.com/KWAK-testing/Formbricks-tests/blob/misc-low-level-test-cases-qt/docs/requirements.md#req-qt-fileupload)
->- [TC-QT-01](https://github.com/KWAK-testing/Formbricks-tests/blob/misc-low-level-test-cases-qt/docs/test-cases/high-level/question-types.md#tc-qt-01)
+>- [REQ-QT-FileUpload](../../../requirements.md#req-qt-fileupload)
+>- [TC-QT-01](../../high-level/question-types.md#tc-qt-01)
 
 ### Cel
 Sprawdzenie poprawności działania dodawania jednego lub wielu plików w odpowiedzi do ankiety. Sprawdzenie ograniczeń dotyczących maksymalnej ilości, rozmiaru oraz dopuszczalnych rozszerzeń plików
