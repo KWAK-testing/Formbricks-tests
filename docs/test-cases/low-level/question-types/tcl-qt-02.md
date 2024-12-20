@@ -1,9 +1,9 @@
 # TCL-QT-02
 
 > ### Odniesienia
->- [REQ-QT-PictureSelection](https://github.com/KWAK-testing/Formbricks-tests/blob/misc-low-level-test-cases-qt/docs/requirements.md#req-qt-pictureselection)
->- [TC-QT-05](https://github.com/KWAK-testing/Formbricks-tests/blob/misc-low-level-test-cases-qt/docs/test-cases/high-level/question-types.md#tc-qt-05)
->- [TC-QT-06](https://github.com/KWAK-testing/Formbricks-tests/blob/misc-low-level-test-cases-qt/docs/test-cases/high-level/question-types.md#tc-qt-06)
+>- [REQ-QT-PictureSelection](../../../requirements.md#req-qt-pictureselection)
+>- [TC-QT-05](../../high-level/question-types.md#tc-qt-05)
+>- [TC-QT-06](../../high-level/question-types.md#tc-qt-06)
 
 ### Cel
 Zweryfikować poprawność wyboru zdjęć przez ankietowanego oraz poprawność obsługi dodawania zdjęć do pytania.
