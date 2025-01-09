@@ -8,7 +8,7 @@ tekst: [longText.txt](https://github.com/KWAK-testing/Formbricks-tests/blob/main
 #### Oczekiwano
 Odpowiedni komunikat błędu (zbyt duża ilość znaków) lub zaakceptowane pytanie. Brak błędu krytycznego.
 ### TCL-QT-03-08
-### Zachowanie
+#### Zachowanie
 formularz pozwala na dodawanie numerów telefonu takich jak: `+`, `1`
-### Oczekiwano
+#### Oczekiwano
 Odpowiedni komunikat błędu (niepoprawny format numeru telefonu).
