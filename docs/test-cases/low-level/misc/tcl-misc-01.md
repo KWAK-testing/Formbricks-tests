@@ -39,7 +39,7 @@ Sprawdzenie poprawności obsługi najpopularniejszych formatów obrazów (JPG, P
 | Test case | Input | Expected |
 | ---       | ------      |    ---   |
 TCL-MISC-01-01 | [capybara.jpg](../../../../seed/images/capybara.jpg) | Zdjęcie widoczne w podglądzie i ankiecie, brak komunikatów o błędach |
-TCL-MISC-01-02 | [lock.png](../../../../seed/images/lock.png) | Zdjęcie widoczne w podglądzie i ankiecie, brak komunikatów o błędach |
+TCL-MISC-01-02 | [account.png](../../../../seed/images/account.png) | Zdjęcie widoczne w podglądzie i ankiecie, brak komunikatów o błędach |
 TCL-MISC-01-03 | [picture.webp](../../../../seed/images/picture.webp) | Zdjęcie widoczne w podglądzie i ankiecie, brak komunikatów o błędach |
 TCL-MISC-01-04 | [huge.jpg](../../../../seed/images/huge.jpg) | Zdjęcie widoczne w podglądzie i ankiecie, brak komunikatów o błędach |
 TCL-MISC-01-05 | [cat.bmp](../../../../seed/images/cat.bmp) | Zdjęcie niezaładowane, widoczny komunikat o niewspieranym formacie pliku |
