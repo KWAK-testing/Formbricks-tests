@@ -35,7 +35,7 @@ zablokowanie możliwości mapowania metadanych na bazie danych Notion.
 ![Screenshot (932)](https://github.com/user-attachments/assets/c251d05f-715f-49b9-96a6-17412c406f4e)
 
 ### Rezultat:
-Błąd o błędnym typie wyświetla się pomimo zmiany typu.  
+Błąd o niepoprawnym typie wyświetla się pomimo jego poprawy.  
 
 ### Oczekiwany wynik:
 Aktualizacja komunikatów o błędach po ich naprawie, bez potrzeby wychodzenia z panelu integracji.
