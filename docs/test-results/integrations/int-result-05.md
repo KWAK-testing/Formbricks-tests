@@ -3,8 +3,8 @@
 > Odniesienia
 > 
 > - [REQ-INT-Notion](https://github.com/KWAK-testing/Formbricks-tests/blob/main/docs/requirements.md#req-int-notion)
-> - [TC-INT-05](https://github.com/KWAK-testing/Formbricks-tests/blob/main/docs/test-cases/high-level/integrations.md#tc-int-02)
-> - [TCL-INT-05](https://github.com/KWAK-testing/Formbricks-tests/blob/main/docs/test-cases/low-level/integrations/tcl-int-02.md)
+> - [TC-INT-05](https://github.com/KWAK-testing/Formbricks-tests/blob/main/docs/test-cases/high-level/integrations.md#tc-int-05)
+> - [TCL-INT-05](https://github.com/KWAK-testing/Formbricks-tests/blob/main/docs/test-cases/low-level/integrations/tcl-int-05.md)
 
 # Status: ❌
 
