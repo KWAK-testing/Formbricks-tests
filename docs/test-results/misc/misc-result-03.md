@@ -1,6 +1,13 @@
-TCL-MISC-02-TESTED
+# MISC-RESULT-03
+> ### Odniesienia
+> - [REQ-MISC-AddMultimedia](../../../requirements.md#req-misc-addmultimedia)
+> - [TC-MISC-06](../../test-cases/high-level/misc.md#tc-misc-06)
+> - [TCL-MISC-03](../../test-cases/low-level/misc/tcl-misc-02.md)
 
-### Kroki testowe:
+
+# Status: ❌
+
+## Kroki testowe:
   1. Początek
        1. ✅ Stworzona forma z 3 pytań.
 
@@ -13,6 +20,6 @@ TCL-MISC-02-TESTED
 
          
 
-> [!NOTE]
+## Dodatkowe uwagi
 1. ⚠️✅ W przypadkach oznaczonych tak system działa inaczej niż w expected, ale w wyniku nie ma najbardziej spodziewanego problemu
 

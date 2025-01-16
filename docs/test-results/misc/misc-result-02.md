@@ -1,6 +1,12 @@
-TCL-MISC-02-TESTED
+# MISC-RESULT-02
+> ### Odniesienia
+> - [REQ-MISC-AddMultimedia](../../requirements.md#req-misc-addmultimedia)
+> - [TC-MISC-02](../../test-cases/high-level/misc.md#tc-misc-02)
+> - [TCL-MISC-02](../../test-cases/low-level/misc/tcl-misc-02.md)
 
-### Kroki testowe:
+# Status: ✅
+
+## Kroki testowe:
   1. Początek
        1. ✅ Kartka dodania video wyświetla się poprawnie.
 
@@ -17,6 +23,6 @@ TCL-MISC-02-TESTED
        2. ✅ Wideo usuwają się poprawnie i nie są dostępne ani w preview, ani w ankiecie. 
          
 
-> [!NOTE]
+## Dodatkowe uwagi
 1. Po przejściu do następnego pytania wideo z poprzedniego nadal gra.
 2. Wideo gra nawet po naciśnięciu przyciska `restart`.
