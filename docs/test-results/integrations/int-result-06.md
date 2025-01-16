@@ -28,8 +28,8 @@ Na kanale Slack pojawia się wiadomość, że ktoś wysłał ankietę, ale konkr
 
 ## Dodatkowe uwagi
 
-✅ proces łączenia się z konkretnym kanale na Slacku - defektów nie wykryto  
-✅ pojawianie się odpowiedzi na kanale w czasie rzeczywistym - defektów nie wykryto.  
+✅ proces łączenia się z konkretnym kanałem na Slacku - defektów nie wykryto  
+✅ pojawianie się odpowiedzi na kanale w czasie rzeczywistym - defektów nie wykryto
 
 
 ![Screenshot (942)](https://github.com/user-attachments/assets/e03492a6-364e-4a4c-9144-e6a1ecd9e90b)
