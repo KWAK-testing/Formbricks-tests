@@ -19,7 +19,7 @@ Powiadomienie ankietera o błędzie zapisu (na przykład mailowo)
 - Usuń arkusz i wyślij kolejną odpowiedź do ankiety
 #### Rezultat:
 Brak informacji o utracie dostępu do arkusza. Błąd wyskakuje dopiero przy próbie edycji integracji z nieistniejącym arkuszem. <br><br>
-![alt text](/docs/results/integrations/visuals/int-04.png)
+![alt text](/docs/test-results/integrations/visuals/int-04.png)
 #### Oczekiwany wynik:
 Powiadomienie ankietera o błędzie zapisu lub utracie do arkusza (na przykład mailowo)
 ## Dodatkowe uwagi
@@ -30,8 +30,8 @@ Powiadomienie ankietera o błędzie zapisu lub utracie do arkusza (na przykład 
 - ⚠️ Przetestuj scenariusze równoczesnego dostępu do arkusza  
 W przypadku, gdy odpowiedzi z dwóch ankiet są zapisywane do tego samego arkusza, odpowiedzi mieszają się. Nazwy kolumn są nadpisywane w zależności od tego, do której ankiety należy ostatnia zapisana odpowiedź. 
 <br><br>
-![alt text](/docs/results/integrations/visuals/int-01.png)
-![alt text](/docs/results/integrations/visuals/int-02.png)
-![alt text](/docs/results/integrations/visuals/int-03.png)
+![alt text](/docs/test-results/integrations/visuals/int-01.png)
+![alt text](/docs/test-results/integrations/visuals/int-02.png)
+![alt text](/docs/test-results/integrations/visuals/int-03.png)
 ## Wersja 
 Cloud
