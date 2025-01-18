@@ -26,6 +26,5 @@
 Poprawne usuwanie działa dla każdego przypadku
 
 ## Dodatkowe uwagi
-- Brak zdjęcia na githubie dla TCL-MISC-01-02: lock.png
 - obraz po usunięciu nadal jest dostępny po jego adresie np: `http://localhost:3000/_next/image?url=http%3A%2F%2Flocalhost%3A3000%2Fstorage%2Fcm5pgpuz9000alf01lc7xtpk8%2Fpublic%2Fpicture--fid--75fedc1d-75a4-4266-9337-e0df12540f46.webp&w=1200&q=100`
 
