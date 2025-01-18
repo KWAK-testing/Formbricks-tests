@@ -11,16 +11,16 @@
 1. ✅ Wygeneruj obrazy za pomocą skryptu w Pythonie [generateImages.py](./assets/generateImages.py)
 2. ✅ Utwórz ankietę z pytaniem Picture Selection zgodnie z ustawieniami i ich ograniczeniami z `Settings`.
 3. Dodaj wskazane zdjęcia w `Input` dla konfiguracji pytania lub wyboru odpowiedzi
-    1. ✅ TCL-QT-02-01 Zdjęcia dodane poprawnie, pytanie utworzone.
-    2. ✅ TCL-QT-02-02 1000 zdjęć dodane poprawnie.
-    3. ✅ TCL-QT-02-03 Zdjęcie dodane poprawnie, pytanie utworzone.
-    4. ✅ TCL-QT-02-04 Zdjęcia dodane poprawnie, pytanie utworzone, zdjęcia poprawnie wybrane, zdjęcie poprawnie wybrane.
-    5. ✅ TCL-QT-02-05 Zdjęcie dodane poprawnie, pytanie utworzone, zdjęcie poprawnie wybrane.
-    6. ✅ TCL-QT-02-06 Zdjęcia dodane poprawnie, pytanie utworzone, brak możliwości wybrania 2 zdjęć, zaznaczenie przeskakuje z jednego na drugie zdjęcie odznaczając się przy naciśnięcu.
-    7. ❌ TCL-QT-02-07 Zdjęcia dodane niepoprawnie, zamiast podglądu zdjęcia wyświetlana jest nazwa.
-    - Oczekiwany wynik: Poprawnie dodane zdjęcie.
-    8. ✅ TCL-QT-02-08 Zdjęcie dodane poprawnie, pytanie utworzone, zdjęcie poprawnie wybrane, zdjęcie poprawnie odznaczone.
+    - ✅ TCL-QT-02-01 Zdjęcia dodane poprawnie, pytanie utworzone.
+    - ✅ TCL-QT-02-02 1000 zdjęć dodane poprawnie.
+    - ✅ TCL-QT-02-03 Zdjęcie dodane poprawnie, pytanie utworzone.
+    - ✅ TCL-QT-02-04 Zdjęcia dodane poprawnie, pytanie utworzone, zdjęcia poprawnie wybrane, zdjęcie poprawnie wybrane.
+    - ✅ TCL-QT-02-05 Zdjęcie dodane poprawnie, pytanie utworzone, zdjęcie poprawnie wybrane.
+    - ✅ TCL-QT-02-06 Zdjęcia dodane poprawnie, pytanie utworzone, brak możliwości wybrania 2 zdjęć, zaznaczenie przeskakuje z jednego na drugie zdjęcie odznaczając się przy naciśnięcu.
+    - ❌ TCL-QT-02-07 Zdjęcia dodane niepoprawnie, zamiast podglądu zdjęcia wyświetlana jest nazwa.
+        - Oczekiwany wynik: Poprawnie dodane zdjęcie.
+    - ✅ TCL-QT-02-08 Zdjęcie dodane poprawnie, pytanie utworzone, zdjęcie poprawnie wybrane, zdjęcie poprawnie odznaczone.
 
 
 ## Dodatkowe uwagi
-1. Jeśli umożliwione jest dodanie tak dużej ilości zdjęć jak w przypadku TCL-QT-02-02, Poręcznym dla użytkownika byłby przycisk usunięcia wszystkich zdjęć.
+- Jeśli umożliwione jest dodanie tak dużej ilości zdjęć jak w przypadku TCL-QT-02-02, Poręcznym dla użytkownika byłby przycisk usunięcia wszystkich zdjęć.
