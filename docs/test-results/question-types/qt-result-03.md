@@ -13,5 +13,3 @@
 2. ✅ Wprowadź wskazane dane w `Input`.
 3. ❌ Sprawdź, czy `Expected`.
     - ❌ TCL-MQT-03-08: Formularz akceptuje numery telefonów: `+` i `1`
-
-## Dodatkowe uwagi
