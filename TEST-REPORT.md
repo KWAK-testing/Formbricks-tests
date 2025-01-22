@@ -9,12 +9,14 @@ Testy obejmowały aplikację Formbricks w dwóch wersjach:
 
 ### 1.2. Zespół testowy
 **Organizacja: KWAK**
-- Jakub Stępień
-- Weronika Żygis
-- Alicja Wojciechowska
-- Kacper Myćka
+- Jakub Stępień (St0pien) - testy bezpieczeństwa, zarządzanie repozytorium, wybranymi narzędziami i środowiskiem testowym, prezentacja rezultatów pracy zespołu
+- Weronika Żygis (werka-z) - testy integracji, przygotowanie oneslidera, ekspertyza dotycząca (UX/UI)
+- Alicja Wojciechowska (vltkv) - testy integracji, weryfikacja testów MISC, testy aplikacji SpaceDrive, sporządzanie protokołów ze spotkań zespołu 
+- Kacper Myćka (iamk-cper) - testy integracji, weryfikacja testów QT, komunikacja z zespołem Formbricks, testy aplikacji SpaceDrive
 
 Nadzór: dr inż. Jarosław Hryszko
+
+![alt text](/charts/image.png)
 
 ### 1.3. Testowane moduły
 1. Integrations
