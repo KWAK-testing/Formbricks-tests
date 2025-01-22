@@ -1,5 +1,5 @@
 # QT-RESULT-02
->> ### Odniesienia
+> ### Odniesienia
 >- [REQ-QT-PictureSelection](../../../requirements.md#req-qt-pictureselection)
 >- [TC-QT-05](../../high-level/question-types.md#tc-qt-05)
 >- [TC-QT-06](../../high-level/question-types.md#tc-qt-06)
