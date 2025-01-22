@@ -7,8 +7,7 @@
 
 # Status: ❌
 
-## Kroki testowe
-
+### Kroki testowe:
 1. ✅ Utwórz ankietę z pytaniem Free Text zgodnie z ustawieniami i ich ograniczeniami z `Settings`.
 2. ✅ Wprowadź wskazane dane w `Input`.
 3. ❌ Sprawdź, czy `Expected`.
