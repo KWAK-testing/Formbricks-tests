@@ -78,13 +78,15 @@ Nadzór: dr inż. Jarosław Hryszko
 
 ## 4. Statystyki testów
 
-| Moduł | Wykonane/Planowane | Wykryte defekty |
+| Moduł | Testy bez defektów | Wykryte defekty |
 |-------|-------------------|-----------------|
 | Integrations | 2/8 | 12 |
 | Miscellaneous | 4/4 | 0 |
 | Question Types | 1/3 | 2 |
 | InfoSec | 6/6 | 0 |
 | Pozostałe | - | 2 |
+
+![alt text](/charts/statistics.png)
 
 ## 5. Odstępstwa od planu testów
 
