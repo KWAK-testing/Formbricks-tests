@@ -17,8 +17,7 @@
     - ✅ TCL-QT-02-04 Zdjęcia dodane poprawnie, pytanie utworzone, zdjęcia poprawnie wybrane, zdjęcie poprawnie wybrane.
     - ✅ TCL-QT-02-05 Zdjęcie dodane poprawnie, pytanie utworzone, zdjęcie poprawnie wybrane.
     - ✅ TCL-QT-02-06 Zdjęcia dodane poprawnie, pytanie utworzone, brak możliwości wybrania 2 zdjęć, zaznaczenie przeskakuje z jednego na drugie zdjęcie odznaczając się przy naciśnięcu.
-    - ❌ TCL-QT-02-07 Zdjęcia dodane niepoprawnie, zamiast podglądu zdjęcia wyświetlana jest nazwa.
-        - Oczekiwany wynik: Poprawnie dodane zdjęcie.
+    - ✅ TCL-QT-02-07 Zdjęcie dodane poprawnie.
     - ✅ TCL-QT-02-08 Zdjęcie dodane poprawnie, pytanie utworzone, zdjęcie poprawnie wybrane, zdjęcie poprawnie odznaczone.
 
 
