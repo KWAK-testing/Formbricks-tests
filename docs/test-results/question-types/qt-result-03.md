@@ -11,4 +11,7 @@
 1. ✅ Utwórz ankietę z pytaniem Free Text zgodnie z ustawieniami i ich ograniczeniami z `Settings`.
 2. ✅ Wprowadź wskazane dane w `Input`.
 3. ❌ Sprawdź, czy `Expected`.
-    - ❌ TCL-MQT-03-08: Formularz akceptuje numery telefonów: `+` i `1`
+    - ❌ TCL-MQT-03-08: Nieoczekiwane efekty odpowiedzi formularza w przypadku użycia znaków `.`, `-` oraz niestandardowych długości numerów telefonu.
+
+## Zgłoszone defekty
+[Unexpected behaviour of number field in FreeText question](https://github.com/formbricks/formbricks/issues/4633)
